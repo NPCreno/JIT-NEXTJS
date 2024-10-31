@@ -7,7 +7,7 @@ const jobs = [
   // Add more jobs as needed
 ];
 
-export default function JobListing() {
+export default function Jobs() {
   return (
     <div className="min-h-screen bg-gray-100 py-8 px-4">
       <h1 className="text-4xl font-bold text-center text-gray-700 mb-8">Job Listings</h1>
@@ -21,7 +21,7 @@ export default function JobListing() {
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {jobs.map((job) => (
-          <Link key={job.id} href={`/joblisting/jobdetail/${job.id}`}>
+          <Link key={job.id} href={`/jobs/${job.id}`}>
             <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer">
               <h2 className="text-xl font-semibold text-gray-800">{job.title}</h2>
               <p className="text-gray-600">{job.company}</p>

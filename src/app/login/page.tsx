@@ -35,7 +35,7 @@ export default function Login() {
             />
           </div>
 
-          <Link href="/joblisting">
+          <Link href="/jobs">
            <button type="submit"
             className="w-full py-2 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-600 transition duration-200">Login</button>
           </Link>
@@ -43,7 +43,7 @@ export default function Login() {
         
         <p className="text-sm text-center text-gray-600">
           Don't have an account?{" "}
-          <Link href="/signup" className="text-blue-500 hover:underline">
+          <Link href="/register" className="text-blue-500 hover:underline">
             Sign up
           </Link>
         </p>

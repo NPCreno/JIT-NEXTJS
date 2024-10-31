@@ -19,7 +19,7 @@ const jobData: Job[] = [
   { id: 3, title: "Marketing Specialist", company: "MarketWorks", location: "Davao", description: "Create and implement marketing strategies.", requirements: ["Bachelor's in Design", "Portfolio", "UX/UI expertise"]},
 ];
 
-export default function JobDetailPage({ params }: { params: { id: number } }) {
+export default function jobId({ params }: { params: { id: number } }) {
   const [job, setJob] = useState<Job | null>(null);
 
   useEffect(() => {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Signup() {
+export default function Register() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-indigo-500">
       <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-xl shadow-lg transform transition-all duration-500 hover:shadow-2xl">
