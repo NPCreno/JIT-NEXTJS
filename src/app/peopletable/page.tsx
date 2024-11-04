@@ -5,7 +5,7 @@ interface Person {
 }
 
 export default function PeopleTable() {
-    const people: Person[] = [
+     const people: Person[] = [
         {
             name: "Alice Johnson",
             title: "Software Engineer",

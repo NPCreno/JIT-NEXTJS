@@ -1,7 +1,7 @@
 import PeopleTable from "../peopletable/page";
 import FormSample from "../formsample/page";
 import Card from "../card/page";
-
+import PeopleList from "../peopleList/page";
 
 export default function Samples() {
     return (
@@ -12,7 +12,8 @@ export default function Samples() {
                     <PeopleTable />
                 </div>
                 <FormSample />
-                <Card></Card>
+                <Card/>
+                <PeopleList/>
             </div>
         </div>
     );
