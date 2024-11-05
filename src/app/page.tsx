@@ -14,8 +14,7 @@ export default function Home() {
 
         <div className="flex flex-row gap-4">
           <Link href={"/login"}>
-
-            <div className="flex w-26 h-10 pl-2 pr-5 items-center gap-1 border border-gray-300 bg-gradient-to-b from-white to-gray-200 shadow-md rounded-md cursor-pointer hover:bg-gray-400">
+            <div className="flex w-26 h-10 pl-2 pr-5 items-center gap-1 border font-poppins border-gray-300 bg-gradient-to-b from-white to-gray-200 shadow-md rounded-md cursor-pointer hover:bg-gray-400">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M15.1818 10.5H14.7273V8C14.7273 7.20435 14.4399 6.44129 13.9285 5.87868C13.417 5.31607 12.7233 5 12 5C11.2767 5 10.583 5.31607 10.0715 5.87868C9.56006 6.44129 9.27273 7.20435 9.27273 8V10.5H8.81818C8.33613 10.5006 7.87398 10.7115 7.53311 11.0864C7.19225 11.4614 7.00053 11.9697 7 12.5V18C7.00053 18.5303 7.19225 19.0386 7.53311 19.4136C7.87398 19.7885 8.33613 19.9994 8.81818 20H15.1818C15.6639 19.9994 16.126 19.7885 16.4669 19.4136C16.8077 19.0386 16.9995 18.5303 17 18V12.5C16.9995 11.9697 16.8077 11.4614 16.4669 11.0864C16.126 10.7115 15.6639 10.5006 15.1818 10.5V10.5ZM13.8182 10.5H10.1818V8C10.1818 7.46957 10.3734 6.96086 10.7144 6.58579C11.0553 6.21071 11.5178 6 12 6C12.4822 6 12.9447 6.21071 13.2856 6.58579C13.6266 6.96086 13.8182 7.46957 13.8182 8V10.5Z" fill="black" />
               </svg>
