@@ -55,7 +55,7 @@ export default function Login() {
             <Link href={"/jobs"}>
               <button className="w-full h-9 rounded-md bg-blue-600 hover:bg-blue-700 text-white font-medium font-poppins text-xs">Login</button>
             </Link>
-            <span className="w-full flex justify-center text-gray-600 text-xs font-poppins font-medium cursor-pointer">Don't have an account?  <span className="underline"> Sign up today</span></span>
+            <span className="w-full flex justify-center text-gray-600 text-xs font-poppins font-medium cursor-pointer">Don't have an account?&nbsp;<Link href={"/register"}> <span className="underline">Sign up today</span></Link> </span>
           </div>
         </main>
 
