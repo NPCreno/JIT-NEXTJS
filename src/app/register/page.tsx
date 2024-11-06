@@ -15,7 +15,7 @@ export default function Register() {
         </header>
 
 
-        <main className="flex-grow px-64 py-20 flex justify-center items-center shadow-inner">
+        <main className="flex-grow flex-col px-64 py-20 flex justify-between items-center gap-10 shadow-inner ">
           <div className="flex flex-row gap-10 items-center">
             <div className="w-auto p-10 flex flex-col gap-4 justify-start rounded-lg shadow-2xl">
               <div className="flex flex-col gap-1">
