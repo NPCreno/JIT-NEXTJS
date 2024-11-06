@@ -34,6 +34,28 @@ const jobs: Job[] = [
     schedule: "Full Time",
     photo: "/photos/jairosoft.png"
   },
+  {
+    id: 3,
+    title: "Product Manager",
+    company: "NETFLIX",
+    location: "Los Gatos, CA",
+    setting: "On-site",
+    type: "Development",
+    salary: "$500,000 USD",
+    schedule: "Full Time",
+    photo: "/photos/netflix.png"
+  },
+  {
+    id: 4,
+    title: "Sr Full-stack Developer",
+    company: "LINKEDIN",
+    location: "Sunnyvale, CA",
+    setting: "On-site",
+    type: "Development",
+    salary: "$2,00,000 USD",
+    schedule: "Full Time",
+    photo: "/photos/linkedin.png"
+  },
 
   // Add more jobs as needed
 ];
@@ -41,8 +63,8 @@ const jobs: Job[] = [
 export default function Jobs() {
   return (
     <>
-      <div className="flex flex-col min-h-screen">
-        <header className="w-full h-20 py-5 px-28 flex justify-between">
+      <div className="flex flex-col min-h-screen ">
+        <header className="w-full bg-white fixed h-20 py-5 px-28 flex justify-between z-50">
           <div className="flex flex-row font-poppins text-2xl items-center gap-3">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M20.2499 5.99918H3.74994C2.5073 5.99918 1.49994 7.00654 1.49994 8.24918V18.7492C1.49994 19.9918 2.5073 20.9992 3.74994 20.9992H20.2499C21.4926 20.9992 22.4999 19.9918 22.4999 18.7492V8.24918C22.4999 7.00654 21.4926 5.99918 20.2499 5.99918Z" stroke="#9F8AF9" stroke-width="1.5" stroke-linejoin="round" />
@@ -64,7 +86,7 @@ export default function Jobs() {
         </header>
 
 
-        <main className="flex-grow w-auto flex-col pb-20 flex justify-start items-center gap-10">
+        <main className="flex-grow w-auto top-16 flex-col pb-40 flex justify-start items-center gap-10 relative overflow-hidden">
           <div className="top-0 flex w-full h-64 justify-center items-center bg-gradient-to-b from-sky-100 to-violet-100">
             <div className="flex flex-col w-80 h-36 justify-center items-center">
               <span className="font-poppins font-bold text-blue-600 text-base">BEST JOBS IN TECH</span>
@@ -72,8 +94,8 @@ export default function Jobs() {
                 tech industry</span>
             </div>
           </div>
-          <div className="flex-col gap-9 w-full flex justify-between items-center sticky">
-            <div className="flex-col flex justify-between items-center sticky">
+          <div className="flex-col gap-9 w-full flex justify-between items-center sticky relative top-40">
+            <div className="flex-col flex justify-between items-center">
               <div className="relative w-96 border-gray-600">
                 <input className="w-full h-10 flex flex-row justify-between p-2 items-center  ring-gray-600 shadow-sm rounded focus:ring-2 focus:ring-violet-400 focus:outline-none" type="text" placeholder="Search for jobs" />
                 <svg className="absolute right-2 top-1/2 transform -translate-y-1/2" width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
